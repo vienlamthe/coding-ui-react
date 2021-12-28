@@ -1,11 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import Button from './modules/components/Button';
+import GlobalStyle from './modules/components/GlobalStyles'
 
 function App() {
+
+  const testFunc = () => {
+    console.log('running...')
+  }
+
   return (
     <div className="App">
+      <GlobalStyle />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <Button onclick={testFunc} />
       </header>
     </div>
   );
