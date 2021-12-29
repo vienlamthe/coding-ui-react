@@ -1,4 +1,4 @@
-import './App.css';
+import CustomForm from './modules/components/Form';
 import Button from './modules/components/Button';
 import GlobalStyle from './modules/components/GlobalStyles'
 
@@ -12,7 +12,8 @@ function App() {
     <div className="App">
       <GlobalStyle />
       <header className="App-header">
-        <Button onclick={testFunc} />
+        {/* <Button onclick={testFunc} /> */}
+        <CustomForm />
       </header>
     </div>
   );
