@@ -3,6 +3,8 @@ import Input from './Input';
 import SubmitButton from './SubmitButton';
 import RadioGroup from './RadioGroup';
 import Radio from './Radio';
+import Checkbox from './Checkbox';
+import CheckboxGroup from './CheckboxGroup';
 
 const Form = ({ onSubmit, children, ...restProps }) => (
   <FinalForm onSubmit={onSubmit}>
@@ -16,6 +18,8 @@ const Form = ({ onSubmit, children, ...restProps }) => (
 
 Form.Input = Input;
 Form.Radio = Radio;
+Form.Checkbox = Checkbox;
+Form.CheckboxGroup = CheckboxGroup;
 Form.RadioGroup = RadioGroup;
 Form.SubmitButton = SubmitButton;
 
