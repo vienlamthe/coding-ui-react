@@ -1,6 +1,6 @@
 import Field from './Field';
 import styled from 'styled-components';
-import { typography, colors } from '../../utils/styles';
+import { colors } from '../../utils/styles';
 
 
 const StyledLabel = styled.label`

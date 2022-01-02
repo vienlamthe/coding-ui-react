@@ -12,8 +12,7 @@ function App() {
     <div className="App">
       <GlobalStyle />
       <header className="App-header">
-        {/* <Button onclick={testFunc} /> */}
-        <CustomForm />
+        <Button onclick={testFunc} />
       </header>
     </div>
   );
