@@ -1,22 +1,20 @@
-import { createGlobalStyle } from 'styled-components'
-import { normalize } from 'styled-normalize'
-import { typography } from '../../utils/styles'
+import { createGlobalStyle } from 'styled-components';
+import { normalize } from 'styled-normalize';
+import { typography } from '../../utils/styles';
 
 const GlobalStyle = createGlobalStyle`
   ${normalize}
   * {
     box-sizing: border-box;
-  }
-
-  html {
-    font-size: 16px;
-    ${typography.family.base}
-  }
-
-  body {
     margin: 0;
     padding: 0;
   }
-`
 
-export default GlobalStyle
+  html, body {
+    font-size: 16px;
+    color: #333;
+    ${typography.family.base}
+  }
+`;
+
+export default GlobalStyle;
